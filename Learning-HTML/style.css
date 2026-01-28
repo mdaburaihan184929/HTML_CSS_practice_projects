@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+ font-family: "Open Sans", sans-serif;
+  
+
+}
+#main-menu {
+ background: #9fd129;
+}
+#main-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+       
+
+}
+#main-menu li{
+  display: inline-block;
+  position: relative;
+}
+#main-menu li a{
+  display: block;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #fff;
+}
+#main-menu li a:hover{
+  background: #8c7ae6;
+}
+#main-menu ul ul{
+  position: absolute;
+  left: 0;
+  top: 46px;
+  background: #44bd32 ;
+  width: 200px;
+  display: none;
+}
+ #main-menu ul ul li{
+  display: block;
+ }
+ #main-menu ul li:hover ul{
+  display: block;
+ }
+ .section{
+  background: #fff;
+  box-sizing: border-box;
+
+ }
+ .card-container{
+display: flex;
+ align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+ }
+ 
+.card{
+  width: 350px;
+  min-height: 400px;
+  background: #fff;
+ 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+ 
+}
+.card:hover{
+  transform: translateY(-15px);
+}
+.card img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.card h3{
+  text-align: center;
+}
+.card h3::after{
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: tomato;
+  display: block;
+  margin: 8px auto;
+}
+.card p
+
+{
+ text-align: center;
+  padding-bottom: 10px;
+}
+.card a{
+display: inline-block;
+margin: 0 auto;
+
+}
+.card a{
+  align-items: center;
+  text-decoration: none;
+  background: #c71fdd;
+  border-radius: 10px;
+align-items: center;
+ color: #fff;
+ cursor: pointer;
+ padding: 5px;
+
+}
+.card a:hover{
+  background: black;
+}
